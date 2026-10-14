@@ -2,7 +2,7 @@
 
 int main () {
 	int n = 0;
-	int a = 2;
+	int a = 0;
 
 	printf("Enter any positive number: ");
 	scanf("%d", &n);
@@ -14,10 +14,7 @@ int main () {
 		}
 		a++;
 	}
-	
-	if (n == 1) {
-		printf("None");
-	}
+
 	printf("\n");
 
 	return 0;

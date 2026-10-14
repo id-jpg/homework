@@ -9,7 +9,7 @@ int main () {
 	printf("Voila: ");
 
 	while (a <= n) {
-		printf("	%d\n", a);
+		printf("\t%d\n", a);
 		a = a+1;
 	}
 
